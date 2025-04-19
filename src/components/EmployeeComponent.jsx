@@ -93,6 +93,7 @@ const EmployeeComponent = () => {
     setErrors(errorsCopy);
     return valid;
   }
+  
 
   function pageTitle() {
     if (id) {
